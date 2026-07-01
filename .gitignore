@@ -1,0 +1,16 @@
+# Configuración sensible
+wp-config.php
+wp-config-sample.php
+
+# Subidas de usuarios (contenido, no código)
+/wp-content/uploads/
+
+# Cachés, backups, logs
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/backups/
+*.log
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
