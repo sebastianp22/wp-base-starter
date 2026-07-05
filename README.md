@@ -72,3 +72,8 @@ Configurar correctamente el remoto y hacer `git push -u origin master` tras crea
 - Estado: Completado (base lista para reutilizar en otros proyectos)
 - Última actualización: 2026-07-04
 - Uso recomendado: clonar este entorno como punto de partida para nuevos sitios WordPress.
+
+## Ruta de proyectos
+
+Este proyecto forma parte de mi ruta de aprendizaje por proyectos en WordPress.
+Ver resumen completo en: [WordPress Project Route & Portfolio](https://github.com/sebastianp22/WP-Portfolio)
