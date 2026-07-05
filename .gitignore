@@ -1,16 +1,32 @@
-# Configuración sensible
+# --- Root: ignorar todo menos archivos propios y wp-content ---
+/*
+# Mantener estos archivos y carpetas en el repo
+!.gitignore
+!README.md
+!Images/
+!wp-content/
+
+# --- Core de WordPress (ya cubierto por /*, lo dejamos explícito por claridad) ---
+wp-admin/
+wp-includes/
+index.php
+license.txt
+readme.html
+wp-*.php
+xmlrpc.php
+
+# --- Configuración sensible ---
 wp-config.php
 wp-config-sample.php
+.htaccess
 
-# Subidas de usuarios (contenido, no código)
-/wp-content/uploads/
+# --- Contenido dinámico (no código) ---
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backups/
 
-# Cachés, backups, logs
-/wp-content/cache/
-/wp-content/upgrade/
-/wp-content/backups/
-*.log
-
-# Archivos del sistema
+# --- Archivos de sistema y logs ---
 .DS_Store
 Thumbs.db
+*.log
