@@ -66,3 +66,9 @@ Configurar correctamente el remoto y hacer `git push -u origin master` tras crea
   - Definir un tema hijo base para proyectos de clientes.
   - Documentar un set mínimo de plugins recomendados.
   - Añadir flujo de exportación/migración a hosting real.
+
+## Estado del proyecto
+
+- Estado: Completado (base lista para reutilizar en otros proyectos)
+- Última actualización: 2026-07-04
+- Uso recomendado: clonar este entorno como punto de partida para nuevos sitios WordPress.
